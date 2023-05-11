@@ -13,22 +13,11 @@ body{
     font-family: sans-serif;
 }
 
-.section{
-    height: 100rem;
-}
-
-.section-1{
-    background: black;
-}
-
-.section-2{
-    background: darkblue;
-}
-
 .section-3{
     background: white;
     display: flex;
     align-items: center;
+    height: auto;
 }
 
 .reviews{
@@ -103,5 +92,15 @@ body{
     to{
         opacity: 1;
         filter: blur(0);
+    }
+}
+
+@media screen and (max-width: 50rem){
+    .arrow{
+        display: none;
+    }
+
+    .reviews{
+        width: 100%;
     }
 }
