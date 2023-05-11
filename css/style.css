@@ -10,6 +10,7 @@ html{
 
 body{
     font-size: 2rem;
+    font-family: sans-serif;
 }
 
 .section{
@@ -49,10 +50,11 @@ body{
     background: white;
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2),
     inset 0 -1rem 1rem -1rem rgba(0, 0, 0, 0.1);
-    
 }
 
 .review p{
     font-size: 65%;
     font-style: italic;
+    padding-bottom: 2rem;
+    border-bottom: 0.5rem solid rgba(0, 0, 0, 0.2);
 }
