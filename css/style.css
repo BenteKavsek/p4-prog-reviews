@@ -8,6 +8,28 @@ html{
     font-size: 62.5%;
 }
 
-body{
+.section{
+    height: 100rem;
+}
+
+.section-1{
     background: black;
+}
+
+.section-2{
+    background: darkblue;
+}
+
+.section-3{
+    background: white;
+}
+
+.reviews{
+
+}
+
+.review{
+    width: 30rem;
+    height: 30rem;
+    background: darkred;
 }
